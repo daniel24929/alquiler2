@@ -1,0 +1,77 @@
+.container-fluid {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Título Principal */
+h1 {
+    text-align: center;
+    color: #2C3E50;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Estilos para Tarjetas */
+.card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Encabezado de la Tarjeta */
+.card-header {
+    background-color: #3498DB;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Cuerpo de la Tarjeta */
+.card-body {
+    padding: 20px;
+    color: #5D6D7E;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+/* Listado de Objetivos */
+.card-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-body ul li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.card-body ul li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #27AE60;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .card-header {
+        font-size: 1.2em;
+    }
+
+    .card-body {
+        font-size: 1em;
+    }
+}
